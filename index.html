@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>StartEx</title>
+    <meta name="description" content="">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header"></header>
+
+
+
+<main>
+    
+    <section class="info">
+        <div class="content content_info">
+            <div class="video">
+                <video class="video-media" src="./images/sky.mp4" preload="none" autoplay muted loop></video>
+            </div>
+            <div class="info__inner flex_column_center">
+                <div class="title text">
+                    <h2 class="h2_et col_g">There is no other <br> platforms for you as like</h2>
+                </div>
+                <div class="button-inner">
+                    <div id="btnPopupVideo" class="button info__button">
+                        <div class="triangle"></div>
+                    </div>
+                    <div class="popup" id="popupVideo">
+                        <div class="popup-content popup-content_video">
+                            <span class="close closeVideo flex_center">&times;</span>
+                            <div class="video">
+                                <video id="video" class="video-media_popup" src="https://storage.coverr.co/videos/TEerln00m5BX5hsDYavm12mzBSO3YPlKR?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA5MDcwMzk0fQ.51krEWdJf7ZI7PkO-3NAZys2BkUNg4GFwMJEQATpB-M" autoplay muted loop>
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btnPopup" class="button button_form" type="button">Try now</button>
+                    <div class="popup popup_form" id="popup">
+                        <div class="popup-content popup-content_form">
+                            <span class="close closeForm flex_center">&times;</span>
+                            <form class="popup__form flex_column_center" action="handler.php">
+                                <input type="text" class="input__popup" placeholder="Full name">
+                                <input type="text" class="input__popup" placeholder="Phone">
+                                <input type="email" class="input__popup" placeholder="Email">
+                                <textarea name="Message" cols="30" rows="5"
+                                          placeholder="Your message"></textarea>
+                                <button class="button button__popup" type="button">Try now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <button id="btnPopupLink" class="button button_link" type="button">* No need to add cards details</button>
+                    <div class="popup popup_link" id="popupLink">
+                        <div class="popup-content popup-content_link">
+                            <span class="close closeLink flex_center">&times;</span>
+                            <h5>details</h5>
+                            <p class="p_22_eri marg col_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Assumenda aut corporis culpa debitis deleniti dignissimos
+                                doloribus dolorum ea earum enim est ex, excepturi fuga impedit
+                                labore nemo nisi nostrum odit officia omnis optio pariatur possimus,
+                                quae qui quisquam repellat reprehenderit rerum, similique voluptatem
+                                voluptatum!
+                            </p>
+                            <p class="p_22_eri marg col_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Assumenda aut corporis culpa debitis deleniti dignissimos
+                                doloribus dolorum ea earum enim est ex, excepturi fuga impedit
+                                labore nemo nisi nostrum odit officia omnis optio pariatur possimus,
+                                quae qui quisquam repellat reprehenderit rerum, similique voluptatem
+                                voluptatum! Alias commodi officiis optio quia velit
+                            </p>
+                            <p class="p_22_eri marg col_b text_none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Assumenda aut corporis culpa debitis deleniti dignissimos
+                                doloribus dolorum ea earum enim est ex, excepturi fuga impedit
+                                labore nemo nisi nostrum odit officia omnis optio pariatur possimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="desc__img"></div>
+        <div class="content content_description wrapper">
+            <div class="description__inner">
+                <div class="desc__text">
+                    <div class="subtitle">
+                        <p class="p_16_em ttu col_c">NEW DESIGN</p>
+                        <h4 class="h4_em">There is no other platforms for you as like
+                            <span class="span__desc col_c">....</span>
+                        </h4>
+                    </div>
+                    <div class="p__inner">
+                        <p class="p_16_em col_b">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venena.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore.voluptate velit esse cillum dolore
+                        </p>
+                        <p class="p_16_em col_b">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venena.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.voluptate velit esse cillum dolore
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="content content_features wrapper">
+            <div class="images__inner">
+                <img class="pens" src="./images/pen.png" alt="pen">
+                <img class="phones" src="./images/Earphones.png" alt="Earphones">
+                <img class="cups" src="./images/cup.png" alt="cup">
+            </div>
+            <div class="subtitle subtitle_features text">
+                <p class="p_16_em ttu col_c">NEW FEATURES</p>
+                <h4 class="h4_em">Some awesone features</h4>
+            </div>
+            <div class="features__inner flex_around">
+                <div class="features__item flex_column_center">
+                    <div class="features__icon">
+                        <img src="./images/icon-picture.png" alt="icon">
+                    </div>
+                    <div class="features__text text">
+                        <p class="p_22_em">Some awesone features</p>
+                        <p class="p_16_em">Donec sed odio dui.
+                            Aenean lacinia bibendum nulla sed consectet.
+                            Aenean lacinia bibendum nulla sed consectet.
+                        </p>
+                    </div>
+                </div>
+                <div class="features__item flex_column_center">
+                    <div class="features__icon">
+                        <img src="./images/icon-airplane.png" alt="airplane">
+                    </div>
+                    <div class="features__text text">
+                        <p class="p_22_em">Some awesone features</p>
+                        <p class="p_16_em">Donec sed odio dui. Aenean lacinia bibendum
+                            nulla sed consectet.Aenean lacinia bibendum nulla sed consectet.</p>
+                    </div>
+                </div>
+                <div class="features__item flex_column_center">
+                    <div class="features__icon">
+                        <img src="./images/icon-bulb.png" alt="bulb">
+                    </div>
+                    <div class="features__text text">
+                        <p class="p_22_em">Some awesone features</p>
+                        <p class="p_16_em">Donec sed odio dui. Aenean lacinia bibendum
+                            nulla sed consectet.Aenean lacinia bibendum nulla sed consectet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design">
+        <div class="content content_design wrapper">
+            <div class="design__inner flex_between">
+                <div class="design__item__img">
+                    <img src="./images/macbook.png" alt="comp">
+                </div>
+                <div class="design__item">
+                    <div class="subtitle subtitle_design text-l">
+                        <p class="p_16_em ttu col_c">NEW design</p>
+                        <h4 class="h4_em">Resposive design, just<br> need your tap<span class="span__design">....</span></h4>
+                    </div>
+                    <p class="p_16_em p_16_em_line">Aenean eu leo quam. Pellentesque ornare
+                        sem lacinia quam venenaAenean eu leo quam. Pellentesque
+                        ornare sem lacinia quam venena.Aenean eu leo quam.
+                        Pellentesque ornare sem lacinia quam venena.Aenean eu leo quam.
+                        Pellentesque ornare sem lacinia quam venena
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clients">
+        <div class="content content_clients wrapper">
+            <div class="clients__inner flex_around_start">
+                <div class="clients__item">
+                    <div class="clients__images">
+                        <img src="./images/JonathonDoe.jpg" alt="man">
+                    </div>
+                    <div class="clients__text">
+                        <p class="p_22_er text col_w">Jonathon Doe</p>
+                        <p class="p_16_em text col_c">Co Founder</p>
+                        <p class="p_16_eri col_w">“Aenean eu leo quam. Pellentesque
+                            ornare sem lacinia qua emere“Aenean eu leo
+                            quam. Pellentesque ornare sem lacinia qua
+                            emere ornare sem lacinia qua lacinia emere"
+                        </p>
+                    </div>
+                </div>
+                <div class="clients__item">
+                    <div class="clients__images">
+                        <img src="./images/JonathonDoe_2.jpg" alt="man">
+                    </div>
+                    <div class="clients__text">
+                        <p class="p_22_er text col_w">Jonathon Doe</p>
+                        <p class="p_16_em text col_c">Co Founder</p>
+                        <p class="p_16_eri col_w">"Pellentesque
+                            ornare sem lacinia qua emere“Aenean eu leo
+                            quam. Pellentesque ornare sem lacinia qua emere
+                            ornare sem lacinia qua emere"
+                        </p>
+                    </div>
+                </div>
+                <div class="clients__item">
+                    <div class="clients__images">
+                        <img src="./images/JonathonDoe_3.jpg" alt="man">
+                    </div>
+                    <div class="clients__text">
+                        <p class="p_22_er text col_w">Jonathon Doe</p>
+                        <p class="p_16_em text col_c">Co Founder</p>
+                        <p class="p_16_eri col_w">“Aenean eu leo quam. Pellentesque
+                            ornare sem lacinia qua emere“Aenean eu leo
+                            quam. Pellentesque ornare sem lacinia
+                            qua emere  sem lacinia lacinia qua qua emere ornare sem lacinia qua lacinia emere"
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="logos__inner flex_around">
+                <div class="logos__item">
+                    <img src="./images/partner-logo-1.png" alt="logo">
+                </div>
+                <div class="logos__item">
+                    <img src="./images/partner-logo-4.png" alt="logo">
+                </div>
+                <div class="logos__item">
+                    <img src="./images/partner-logo-5.png" alt="logo">
+                </div>
+                <div class="logos__item">
+                    <img src="./images/partner-logo-7.png" alt="logo">
+                </div>
+                <div class="logos__item">
+                    <img src="./images/partner-logo-8.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="feature">
+        <div class="content content_feature wrapper">
+            <div class="feature__inner flex_column">
+                <div class="subtitle subtitle_feature text">
+                    <p class="p_16_em ttu col_c">NEW FEATURES</p>
+                    <h4 class="h4_em">Some awesone features</h4>
+                    <p class="p_16_em p_16_em__feature">Aenean eu leo quam. Pellentesque ornare sem
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit.</p>
+                </div>
+                <div class="feature__images">
+                    <img src="./images/screen.png" alt="screen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="try">
+        <div class="content content_try wrapper">
+            <div class="try__inner">
+                <div class="subtitle text">
+                    <p class="p_16_em ttu col_c">NEW FEATURES</p>
+                    <h4 class="h4_em col_ow">Over 1000 designers are using ...</h4>
+                </div>
+                <form class="form__try form__try__inner  flex_between_end">
+                    <input type="text" placeholder="FULL NAME">
+                    <input type="text" placeholder="YOUR EMAIL">
+                    <input type="password" placeholder="PASSWORD">
+                    <div class="btn__inner flex_column">
+                        <div class="arrow__inner flex_end_end">
+                            <div class="arrow__item">
+                                <img src="./images/arrow.png" alt="arrow">
+                            </div>
+                            <div class="p__text">
+                                <p class="p_16_er col">30 days free trial for all.</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn col">TRY NOW</button>
+                    </div>
+                </form>
+                <div class="try__p">
+                    <p class="p_16_et col text">By Signing up you agree to our<br>
+                        <a href="#" class="try_link td_u">terms & Services.</a>
+                    </p>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+</main>
+
+
+
+
+<section class="footer">
+    <div class="content content_footer wrapper">
+        <div class="darker"></div>
+        <div class="footer__inner flex_start">
+            <div class="footer__item footer__item__info flex_column_srart">
+                <div class="text__inner flex_center_start">
+                    <div class="subtitle_footer item__p">
+                        <h6>Start</h6>
+                    </div>
+                    <div class="item__img">
+                        <img src="./images/triangle.png" alt="triangle">
+                    </div>
+                </div>
+                <p class="p_14_em">Aenean lacinia bibendum nulla
+                    lacinia bibendum nulla sed consectetu
+                    sed consectetur. Aenean eu leo qu
+                </p>
+                <div class="p_14_em">AdDress: 34 Brokel Rd NY</div>
+            </div>
+            <div class="footer__item footer__item__support flex_column_srart">
+                <p class="p_22_em">Support</p>
+                <a class="footer__link" href="#"><p class="p_14_er">Help Center</p></a>
+                <a class="footer__link" href="#"><p class="p_14_er">Get Started</p></a>
+                <a class="footer__link" href="#"><p class="p_14_er">Contact US</p></a>
+            </div>
+            <div class="footer__item footer__item__about text_left flex_column_srart">
+                <p class="p_22_em">About Us</p>
+                <a class="footer__link" href="#"><p class="p_14_er">About Us</p></a>
+                <a class="footer__link" href="#"><p class="p_14_er">Terms of Use</p></a>
+                <a class="footer__link" href="#"><p class="p_14_er">Privacy Policy</p></a>
+            </div>
+            <div class="footer__item footer__item__form">
+                <p class="p_22_em">Get Newsletter</p>
+                <form class="form__footer flex_start_center">
+                    <input class="in__footer" type="email" placeholder="Email">
+                    <button type="button" class="btn__footer">
+                        <img src="./images/up-arrow.png" alt="arrow">
+                    </button>
+                </form>
+                <div class="footer__social">
+                    <div class="social__inner flex_between">
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="./images/svg-sprite/dribble.svg" alt="icon">
+                        </a>
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="./images/svg-sprite/facebook.svg" alt="icon">
+                        </a>
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="./images/svg-sprite/sign.svg" alt="icon">
+                        </a>
+                        <a class="social__link" href="#" target="_blank">
+                            <img class="twitter" src="./images/svg-sprite/twitter.svg" alt="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/jquery.js"></script>
+<script src="js/all.min.js"></script>
+
+
+
+
+</body>
+</html>
