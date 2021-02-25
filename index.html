@@ -42,9 +42,9 @@
                         <div class="popup-content popup-content_form">
                             <span class="close closeForm flex_center">&times;</span>
                             <form class="popup__form flex_column_center" action="handler.php">
-                                <input type="text" class="input__popup" placeholder="Full name">
-                                <input type="text" class="input__popup" placeholder="Phone">
-                                <input type="email" class="input__popup" placeholder="Email">
+                                <input type="text" class="input__popup" placeholder="Full name" required>
+                                <input type="text" class="input__popup" placeholder="Phone" required>
+                                <input type="email" class="input__popup" placeholder="Email" required>
                                 <textarea name="Message" cols="30" rows="5"
                                           placeholder="Your message"></textarea>
                                 <button class="button button__popup" type="button">Try now</button>
@@ -271,9 +271,9 @@
                     <h4 class="h4_em col_ow">Over 1000 designers are using ...</h4>
                 </div>
                 <form class="form__try form__try__inner  flex_between_end">
-                    <input type="text" placeholder="FULL NAME">
-                    <input type="text" placeholder="YOUR EMAIL">
-                    <input type="password" placeholder="PASSWORD">
+                    <input type="text" placeholder="FULL NAME" required>
+                    <input type="text" placeholder="YOUR EMAIL" required>
+                    <input type="password" placeholder="PASSWORD" required>
                     <div class="btn__inner flex_column">
                         <div class="arrow__inner flex_end_end">
                             <div class="arrow__item">
@@ -334,7 +334,7 @@
             <div class="footer__item footer__item__form">
                 <p class="p_22_em">Get Newsletter</p>
                 <form class="form__footer flex_start_center">
-                    <input class="in__footer" type="email" placeholder="Email">
+                    <input class="in__footer" type="email" placeholder="Email" required>
                     <button type="button" class="btn__footer">
                         <img src="./images/up-arrow.png" alt="arrow">
                     </button>
